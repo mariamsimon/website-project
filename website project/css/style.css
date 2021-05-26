@@ -1,0 +1,209 @@
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+}
+
+html,body{
+font-family: 'Roboto', sans-serif;
+line-height:1.5;
+}
+
+a{
+text-decoration:none;
+}
+
+.container{
+      max-width:80%;
+      margin:auto;
+}
+
+.bg-dark{
+background-color:#252A34;
+color:#fff;
+}
+
+.bg-light{
+background-color:#EAEAEA;
+color:#000000;
+}
+
+.bg-last{
+background-color:#00FFFF;
+width:100%;
+}
+
+.text-center{
+   text-align:center;
+}
+
+.heading{
+  font-size:2rem;
+ 
+}
+
+.heading1{
+  color:#FF2E63;
+}
+
+.py-1{
+padding:1.5rem 0;
+
+}
+
+.p-1{
+padding:1.5rem 0;
+}
+
+.btn{
+background-color:#0000FF;
+color:#fff;
+padding:0.5rem 1.5rem;
+border-radius:5px;
+}
+
+.btn:hover{
+background-color:#FF2E63;
+}
+
+.box-shadow{
+    box-shadow:0 0 2px #252A34;
+
+}
+
+/*navbar*/
+
+   #navbar{
+   display:flex;
+   justify-content:space-between;
+   align-item:center;
+   padding:1rem;
+   position:sticky;
+   top:0;
+   z-index:1;
+}
+
+
+   #navbar.logo img{
+   width:80px;
+}
+
+
+   #navbar ul{
+   list-style:none;
+   display:flex;
+}
+  #navbar ul a{
+   color:#fff;
+   padding:1rem;
+
+}
+  #navbar ul li a:hover{
+   background-color:#0000FF;
+   border-radius:5px;
+}
+/*homepage*/
+
+#homepage{
+   
+background:#252A34 url("logo pic.jpg") no-repeat center
+ center/cover;
+height:100vh;
+color:#000080;
+
+}
+
+
+#homepage .homepage-content{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+height:100%;
+background-color;rgba(0,0,0,0.8);
+padding:1rem;
+}
+
+
+/*about*/
+#about .about-content{
+display:flex;
+align-items:center;
+justify-content:center;
+padding-buttom;3rem;
+}
+
+#about .about-content div{
+font-size:1.3rem;
+margin-right:5rem;
+}
+
+   
+#about .about-content img{
+ width:50%;
+height:45%;
+ margin-left:5rem;
+ border:5px solid #fff;
+}
+
+
+/*types*/
+
+#types .types-boxes{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+#types .types-boxes .types-box{
+background-color:#FFFFFF;
+flex:2;
+border-radius:5px;
+margin:1rem;
+}
+ #types .types-boxes .types-content img{
+display:block;
+width:100%;
+margin-buttom:10px;
+
+}
+ 
+ 
+/*contact*/
+
+ #contact{
+display:flex;
+
+}
+
+#contact.contact-us input,
+#contact.contact-us textarea{
+display:flex;
+width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
